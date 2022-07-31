@@ -13,4 +13,38 @@
     Returns:
         string: the message to return*/
 
-void main() {}
+String func(int a) {
+    String c = ' ';
+    if (a<0) {
+        return c = 'Freezing';
+    }
+    if (a>=0) {
+        if (a<10) {
+            return c = 'Very Cold';
+        }
+    }
+    if (a>=10) {
+        if (a<20) {
+            return c = 'Cold';
+        }
+    }
+    if (a>=20) {
+        if (a<30) {
+            return c = 'Normal';
+        }
+    }
+    if (a>=30) {
+        if (a<40) {
+            return c = 'Hot';
+        }
+        
+    }
+    if (a>40) {
+        return c = 'Very Hot';
+    }
+    return c;
+}
+
+void main() {
+    print(func(30));
+}
