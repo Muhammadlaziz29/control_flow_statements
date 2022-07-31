@@ -16,6 +16,10 @@ String func(int a) {
     int x1 = x%10;
     int x2 = x~/10;
     int w = x1*10+x2;
+
+    print(x1);
+    print(x2);
+    print(w);
     if (a>w) {
         h = 'True';
     }
@@ -26,5 +30,5 @@ return h;
 }
 
 void main() {
-    print(func(43));
+    print(func(21));
 }
