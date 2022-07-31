@@ -15,5 +15,5 @@ int func(int a) {
     return a;
 }
 void main() {
-print(func(3));
+print(func(1));
 }
